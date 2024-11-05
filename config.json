@@ -1,0 +1,77 @@
+{
+  "selected_presets": {
+    "rainfall": "moderate",
+    "player": "standard",
+    "simulation": "default",
+    "output": "default"
+  },
+
+  "rainfall_presets": {
+    "light": {
+      "release_rate": 2,
+      "spacing": 20,
+      "drop_height": 0.4,
+      "drop_width": 0.2,
+      "rain_angle": 5
+    },
+    "moderate": {
+      "release_rate": 5,
+      "spacing": 10,
+      "drop_height": 0.5,
+      "drop_width": 0.2,
+      "rain_angle": 10
+    },
+    "heavy": {
+      "release_rate": 10,
+      "spacing": 5,
+      "drop_height": 0.6,
+      "drop_width": 0.3,
+      "rain_angle": 15
+    },
+    "custom": {
+      "release_rate": 7,
+      "spacing": 8,
+      "drop_height": 0.45,
+      "drop_width": 0.25,
+      "rain_angle": -5
+    }
+  },
+
+  "player_presets": {
+    "standard": {
+      "movement_speed": 1.5,
+      "player_height": 180,
+      "player_width": 50
+    },
+    "tall": {
+      "movement_speed": 2.0,
+      "player_height": 190,
+      "player_width": 55
+    },
+    "custom": {
+      "movement_speed": 1.8,
+      "player_height": 175,
+      "player_width": 48
+    }
+  },
+
+  "simulation_presets": {
+    "default": {
+      "duration": 120
+    },
+    "custom": {
+      "duration": 150
+    }
+  },
+
+  "output_presets": {
+    "default": {
+      "results_folder": "results",
+      "csv_prefix": "result_"
+    },
+    "custom": {
+      "results_folder": "custom_results",
+      "csv_prefix": "custom_result_"
+    }
+  }
+}
